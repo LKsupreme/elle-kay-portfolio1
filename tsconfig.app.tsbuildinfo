@@ -1,0 +1,1 @@
+{"root":["./src/main.tsx","./src/admin/Admin.tsx","./src/components/ProjectCard.tsx","./src/components/SiteShell.tsx","./src/lib/api.ts","./src/lib/types.ts","./src/pages/About.tsx","./src/pages/Contact.tsx","./src/pages/Home.tsx","./src/pages/Project.tsx","./src/pages/Work.tsx"],"errors":true,"version":"5.8.3"}

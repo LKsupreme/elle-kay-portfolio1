@@ -1,0 +1,9 @@
+{
+  "name":"elle-kay-portfolio1",
+  "private":true,
+  "version":"1.0.0",
+  "type":"module",
+  "scripts":{"dev":"vite","build":"tsc -b && vite build","preview":"vite preview","deploy":"npm run build && wrangler deploy","db:migrate":"wrangler d1 migrations apply elle-kay-db --local","db:migrate:remote":"wrangler d1 migrations apply elle-kay-db --remote","typecheck":"tsc --noEmit"},
+  "dependencies":{"@cloudflare/workers-types":"^4.20260929.0","framer-motion":"^12.23.16","hono":"^4.9.7","react":"^19.1.1","react-dom":"^19.1.1","react-router-dom":"^7.9.1"},
+  "devDependencies":{"@types/react":"^19.1.13","@types/react-dom":"^19.1.9","@vitejs/plugin-react":"^5.0.4","autoprefixer":"^10.4.21","postcss":"^8.5.6","tailwindcss":"^4.1.13","typescript":"^5.9.2","vite":"^7.1.7","wrangler":"^4.39.0"}
+}

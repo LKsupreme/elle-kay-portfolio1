@@ -1,0 +1,2 @@
+-- Generate password_hash using HMAC-SHA256(password, SESSION_SECRET), then run:
+-- INSERT INTO admin_users(email,password_hash) VALUES('your-email','hex-hash');
